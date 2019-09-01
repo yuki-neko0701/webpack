@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
+    "watch2": "webpack --watch --watch-content-base --content-base src/",
     "start:dev": "webpack-dev-server"
   },
   "repository": {
@@ -22,11 +23,23 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
+    "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
+    "url-loader": "^2.1.0",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
@@ -35,7 +48,9 @@
     "mini-css-extract-plugin": "^0.8.0"
   },
   "browserslist": [
-    "last 2 versions",
+    "> 1% in JP",
+    "iOS >= 7",
+    "ie >= 9",
     "Android >= 4"
   ]
 }

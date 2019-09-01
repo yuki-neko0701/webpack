@@ -1,22 +1,4 @@
-$bg-color: yellow;
+@import "./device_480.scss";
+@import "./device_781.scss";
 
-html {
-
-  body {
-    background: rgba( $bg-color, 1 );
-  }
-}
-
-#list {
-  display: flex;
-  li {
-    color: red;
-  }
-}
-
-#list2 {
-  display: flex;
-  li {
-    color: red;
-  }
-}
+@import "./common.scss";
