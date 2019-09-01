@@ -1,0 +1,22 @@
+$bg-color: yellow;
+
+html {
+
+  body {
+    background: rgba( $bg-color, 1 );
+  }
+}
+
+#list {
+  display: flex;
+  li {
+    color: red;
+  }
+}
+
+#list2 {
+  display: flex;
+  li {
+    color: red;
+  }
+}
